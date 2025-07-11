@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Sports</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #EBEBEB;
+    }
+
+    /* Header */
+    #header {
+      background-color: black;
+      height: 100px;
+      width: 100%;
+    }
+
+    .container {
+      width: 960px;
+      height: auto;
+      margin: 0 auto;
+    }
+
+    #logo-area {
+      width: 300px;
+      height: 100px;
+      background: url('Web.png') no-repeat;
+      float: left;
+    }
+
+    #nav-area {
+      float: right;
+      height: 100px;
+    }
+
+    #nav {
+      list-style: none;
+      margin-top: 30px;
+    }
+
+    #nav li {
+      float: left;
+      margin-left: 30px;
+    }
+
+    #nav a {
+      color: white;
+      text-decoration: none;
+      background-color: #252525;
+      padding: 8px;
+      border: 1px solid silver;
+      border-radius: 5px;
+    }
+
+    #nav li:hover a {
+      background-color: gray;
+    }
+
+    /* Main Content */
+    #main-area {
+      padding: 40px 0;
+    }
+
+    .page {
+      background-color: white;
+      padding: 20px;
+      padding-bottom: 1px;
+    }
+
+    .page p {
+      margin-bottom: 20px;
+    }
+
+    .psg-img {
+      display: block;
+      margin: 20px auto;
+      width: 200px;
+    }
+
+    ul.players {
+      list-style-type: disc;
+      padding-left: 20px;
+      margin-bottom: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      border: 1px solid #999;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #444;
+      color: white;
+    }
+
+    .highlight {
+      background-color: #ffd700;
+      font-weight: bold;
+    }
+
+    /* Footer */
+    #footer {
+      background-color: black;
+      color: white;
+      width: 100%;
+      height: 40px;
+    }
+
+    #footer .container {
+      padding-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <a href="index.html"><div id="logo-area"></div></a>
+      <div id="nav-area">
+        <ul id="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="movie.html">Movie</a></li>
+          <li><a href="soccer.html">Sports</a></li>
+          <li><a href="food.html">Food</a></li>
+          <li><a href="book.html">Book</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="main-area">
+    <div class="container page">
+      <center><h2>One of my favorite sports is football and my favorite team is PSG.</h2></center>
+      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/800px-Paris_Saint-Germain_F.C..svg.png" alt="PSG Logo" class="psg-img">
+
+      <p><strong>Location:</strong> Paris, France</p>
+      <p><strong>Manager:</strong> Luis Enrique</p>
+      <p><strong>Description:</strong> PSG is one of the top football clubs in Europe and the most successful team in France. They play at the Parc des Princes and have won many Ligue 1 titles in the past decade. Known for their strong attack and world-class players, PSG is expected to be at the top of the league again this season.</p>
+
+      <p><strong>Star Players:</strong></p>
+      <ul class="players">
+        <li>Kylian Mbappé</li>
+        <li>Ousmane Dembélé</li>
+        <li>Gianluigi Donnarumma</li>
+        <li>Achraf Hakimi</li>
+        <li>Marco Asensio</li>
+        <li>Vitinha</li>
+        <li>Marquinhos</li>
+        <li>Bradley Barcola</li>
+      </ul>
+
+      <h3>2025 Predicted Ligue 1 Standings</h3>
+      <table>
+        <tr>
+          <th>Rank</th>
+          <th>Team Name</th>
+        </tr>
+        <tr class="highlight"><td>1</td><td>Paris Saint-Germain</td></tr>
+        <tr><td>2</td><td>Monaco</td></tr>
+        <tr><td>3</td><td>Marseille</td></tr>
+        <tr><td>4</td><td>Lille</td></tr>
+        <tr><td>5</td><td>Lens</td></tr>
+        <tr><td>6</td><td>Rennes</td></tr>
+        <tr><td>7</td><td>Lyon</td></tr>
+        <tr><td>8</td><td>Nice</td></tr>
+        <tr><td>9</td><td>Nantes</td></tr>
+        <tr><td>10</td><td>Strasbourg</td></tr>
+        <tr><td>11</td><td>Toulouse</td></tr>
+        <tr><td>12</td><td>Le Havre</td></tr>
+        <tr><td>13</td><td>Lorient</td></tr>
+        <tr><td>14</td><td>Brest</td></tr>
+        <tr><td>15</td><td>Paris FC</td></tr>
+        <tr><td>16</td><td>Auxerre</td></tr>
+        <tr><td>17</td><td>Metz</td></tr>
+        <tr><td>18</td><td>Angers</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div id="footer">
+    <div class="container">
+      <p>&copy; 2025 Nandan. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html>
+
+

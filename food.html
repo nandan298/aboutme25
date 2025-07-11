@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Food</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #EBEBEB;
+    }
+
+    /* Header */
+    #header {
+      background-color: black;
+      height: 100px;
+      width: 100%;
+    }
+
+    .container {
+      width: 960px;
+      height: auto;
+      margin: 0 auto;
+    }
+
+    #logo-area {
+      width: 300px;
+      height: 100px;
+      background: url('Web.png') no-repeat;
+      float: left;
+    }
+
+    #nav-area {
+      float: right;
+      height: 100px;
+    }
+
+    #nav {
+      list-style: none;
+      margin-top: 30px;
+    }
+
+    #nav li {
+      float: left;
+      margin-left: 30px;
+    }
+
+    #nav a {
+      color: white;
+      text-decoration: none;
+      background-color: #252525;
+      padding: 8px;
+      border: 1px solid silver;
+      border-radius: 5px;
+    }
+
+    #nav li:hover a {
+      background-color: gray;
+    }
+
+    /* Main Content */
+    #main-area {
+      padding: 40px 0;
+    }
+
+    .page {
+      background-color: white;
+      padding: 20px;
+      padding-bottom: 1px;
+    }
+
+    .page p {
+      margin-bottom: 20px;
+    }
+
+    /* Footer */
+    #footer {
+      background-color: black;
+      color: white;
+      width: 100%;
+      height: 40px;
+    }
+
+    #footer .container {
+      padding-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <a href="index.html"><div id="logo-area"></div></a>
+      <div id="nav-area">
+        <ul id="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="movie.html">Movie</a></li>
+          <li><a href="soccer.html">Sports</a></li>
+          <li><a href="food.html">Food</a></li>
+          <li><a href="book.html">Book</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="main-area">
+    <div class="container page">
+      <center><h1>My Favorite Foods</h1></center>
+
+      <h2>Pizza</h2>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmomF1DksRYo9MLTC6zi2qx1XjX7R5PSqPYQ&s" alt="Pizza" width="200" height="150">
+      <br><br>
+
+      <h2>Pasta</h2>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR8l3ckGt2vJYD4Jddv2cTNWCC1HLvyg6ZCg&s" alt="Pasta" width="200" height="150">
+      <br><br>
+
+      <h2>Lasagna</h2>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ5c6kZN8HSltucaXFz2Feue93kMoh0MG2OQ&s" alt="Lasagna" width="200" height="150">
+    </div>
+  </div>
+
+  <div id="footer">
+    <div class="container">
+      <p>&copy; 2025 Nandan. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html>
